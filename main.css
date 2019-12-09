@@ -1,0 +1,92 @@
+html{
+    background-color: #3F7CAC;
+    color: #fff;
+    font-family: 'Calistoga', cursive;
+    height: 100%;
+}
+
+h1{
+    font-size: 40px;
+    width: 100%;
+    background: #465362;
+    border-radius: 17px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+p{
+    font-size: 30px;
+}
+table{
+    background: #95AFBA;
+    color: #fff;
+    font-size: 1.5em;
+    width: 100%;
+    border-radius: 17px;
+    margin-bottom: 3%;
+    padding-top: 1%;
+}
+table tr{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+table th{
+    padding: 0;
+    margin: 0;
+    font-size: 1.6em;
+    color: #011936;
+}
+table td{
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+.quantity-selector-buttons{
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+}
+#pants-dcr, #pants-incr, #shirt-dcr, #shirt-incr{
+    display: block;
+    font-size: 35px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#pants-quantity{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#shirt-quantity{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#calculate-price{
+    font-size: 2em;
+    font-family: 'Calistoga', cursive;
+    margin-left: 20%;
+    width: 60%;
+}
+#promo-btn{    
+    font-size: 35px;
+    font-family: 'Calistoga', cursive;
+}
+button{
+    border-radius: 15px;
+    background: #fff;
+    color: #616161;
+}
+button:hover{
+    background: #BDC4A7 ;
+}
+div{
+    background: #465362;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 3%;
+}

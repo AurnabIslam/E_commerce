@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Checkout</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <h1><strong>ECommerce Checkout</strong></h1>
+        <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Extended Price</th>
+                </tr>
+                <tr>
+                    <td>Pants</td>
+                    <td class="quantity-selector-buttons">
+                        <Button  id="pants-dcr">-</Button>
+                        <h3 id="pants-quantity">0</h3>
+                        <button id="pants-incr">+</button>
+                    </td>
+                    <td>$40.99</td>
+                    <td id="pants-ex-price">$0.00</td>
+                </tr>
+                <tr>
+                    <td>Shirt</td>
+                    <td class="quantity-selector-buttons">
+                        <Button id="shirt-dcr">-</Button>
+                        <h3 id="shirt-quantity">0</h3>
+                        <button id="shirt-incr">+</button>
+                    </td>
+                    <td>$10.99</td>
+                    <td id="shirt-ex-price">$0.00</td>
+                </tr>
+        </table>
+        <button id="calculate-price">Calculate</button>
+        <div id="output">
+            <p id="sub-total-amount">Sub-Total:</p>
+            <p id="tax-amount">Tax:</p>
+            <p id="total-amount">Total:</p>
+            <p>Have a promo code?</p><button id="promo-btn">Click to Enter</button>
+        </div>
+            
+        <script src="main.js" async defer></script>
+    </body>
+</html>
